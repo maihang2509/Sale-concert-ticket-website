@@ -1,0 +1,116 @@
+p {
+    margin: 0;
+}
+.warn {
+    color: red;
+    margin-left: 49%;
+}
+.can2ben {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.select {
+    display: inline-block;
+    height: auto;
+}
+.select.khung1 {
+    width: 750px; 
+    margin-right: 30px;
+}
+.tieude {
+    border-bottom: 4px solid rgba(0, 0, 0, 0.125);
+    font-weight: bold;
+}
+.nd {
+    border-bottom: dashed rgba(0, 0, 0, 0.125);
+}
+.nav-link {
+    --nav-link-color: rgb(102,102,102);
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--nav-link-color);
+    padding-bottom: 1.5px;
+}
+.nav-link:hover {
+    color: var(--nav-link-color);
+}
+.nav-link.khung2 {
+    color: black;
+}
+.loaive {
+    width: 375px;
+    text-align: left;
+}
+.gia {
+    width: 185px; 
+    text-align: center;
+}
+.sl {
+    width: 185px; 
+    text-align: right;
+}
+.khung1 {
+    padding-left: 0;
+    padding-right: 0;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.sl-ve {
+    width: 30px; 
+    text-align: center; 
+    border-color: var(--bs-list-group-border-color);
+    cursor: not-allowed;
+}
+.khung2-cot1 {
+    text-align: left;
+    width: 240px;
+}
+.khung2-cot2 {
+    width: 90px; 
+    text-align: right;
+}
+.submit {
+    width: 100%;
+    padding: 8px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: white;
+    border-color: palevioletred;
+    background-color: palevioletred;
+    border: 2px solid palevioletred; 
+    border-radius: 5px;
+}
+.submit:hover {
+    background-color: #000;
+    color: palevioletred; 
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width: 1182px) {
+    .loaive {
+        width: 310px;
+    }
+    .gia {
+        width: 165px;
+    }
+    .sl {
+        width: 165px;
+    }
+    .select.khung1 {
+        width: 650px;
+    }
+    .select.khung2 {
+        width: 300px;
+    }
+    .khung2-cot1 {
+        width: 173px;
+    }
+}
+@media screen  and (max-width: 972px) {
+    .can2ben {
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,74 @@
+p {
+    margin: 0;
+}
+.warn {
+    color: red;
+    text-align: right;
+}
+.list-group {
+    --border-color: rgb(182, 174, 174);
+    --color: rgb(81, 81, 81);
+    --font-weight: 700;
+    border-radius: 0;
+    width: 456px;
+    margin: 56px auto;
+}
+.list-group-item {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.tieude {
+    border-bottom: 3px solid var(--border-color);
+    font-weight: 600;
+    padding-bottom: 0.1rem;
+}
+.tieude .nav .nav-link {
+    padding-bottom: 3px;
+    text-align: left;
+}
+.nav-link {
+    padding: 0.4rem 0.5rem;
+    color: black;
+}
+.nav-link:hover {
+    color: black;
+}
+.nav-link.hinh {
+    margin-top: 5px;
+    width: 33px;
+    color: var(--border-color);
+}
+.cot1 {
+    width: 140px;
+}
+.chu-indam {
+    color: var(--color); 
+    font-weight: var(--font-weight);
+}
+.cot1-lv {
+    width: 173px;
+}
+.cot2 {
+    width: 247px;
+    text-align: right;
+}
+.tongcong {
+    background-color: var(--color);
+}
+.tongcong .nav .nav-link {
+    color: white;
+    font-weight: var(--font-weight);
+}
+.ktr {
+    font-style: italic;
+    text-align: center;
+    margin: 3px 0;
+}
+.nutxn {
+    width: 100%;
+    padding: 8px;
+    background-color: palevioletred;
+    font-weight: 700;
+    color: white;
+    border-color: palevioletred;
+}

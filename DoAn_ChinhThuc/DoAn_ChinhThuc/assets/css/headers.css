@@ -1,0 +1,91 @@
+.header_nav {
+    color: palevioletred;
+    background-color: rgb(238, 232, 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.direct a {
+    color: #000;
+    border-radius:5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu_header{
+    margin-bottom: 0rem; 
+}
+
+.menu_header .direct a{
+     padding: 10px 12px;
+     line-height: 95px;
+}
+
+.image_logo {
+    padding-top: 12px;
+}
+
+.menu_header li{
+    display: inline-block;
+    margin: 0 5px; 
+}
+
+.menu_header .direct a:hover{
+    color: palevioletred;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.container-fluid {
+    line-height: 55px;
+}
+
+.header_nav .btn {
+    background-color: palevioletred;
+    border: 2px solid palevioletred; 
+    color: #000; 
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.header_nav .btn:hover {
+    color: palevioletred;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.form-control {
+    height: 40px;
+    border: 2px solid palevioletred;  
+    border-radius: 18px;
+    padding: 0 10px;
+}
+
+.log a {
+    text-decoration: none; 
+    color: palevioletred;
+    font-size: 20px;
+}
+
+.log a:hover{
+    cursor: pointer;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.active{
+    background-color: palevioletred;
+    color: #000;
+}
+
+.dropdown-item{
+    margin-left: 16px;
+}
+
+
